@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Svnit</title>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li class="navbar-li">
+                <div class="home">
+                    <h3 class="active">Home</h3>
+                </div>
+            </li>
+            <li class="navbar-li">
+                <div class="about-us">
+                    <h3>About</h3>
+                    <div class="border"></div>
+                </div>
+            </li>
+            <li class="navbar-li">
+                <div class="contact-us">
+                    <h3><i class="far fa-address-book"></i>Contact</h3>
+                    <div  class="border"></div>
+                    <ul id="contact-us-dropdown">
+                        <li><a href="#">Example</a><div class="border2"></div></li>
+                        <li><a href="#">Example</a><div class="border2"></div></li>
+                        <li><a href="#">Example</a><div class="border2"></div></li>
+                        <li><a href="#">Example</a><div class="border2"></div></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navbar-li">
+                <div class="services">
+                    <h3><i class="fas fa-hotel"></i>Services</h3>
+                    <div class="border"></div>
+                    <ul id="services-dropdown">
+                        <li><a href="#">Example</a><div class="border2"></div></li>
+                        <li><a href="#">Example</a><div class="border2"></div></li>
+                        <li><a href="#">Example</a><div class="border2"></div></li>
+                        <li><a href="#">Example</a><div class="border2"></div></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="heading">
+        <img src="../Images2/SVNIT-Surat.png" alt="">
+        <div class="automatic-type-writer">
+            <h1>Sardar Vallapbhai National Institute of Technology</h1>
+        </div>
+    </div>
+    <div class="image-scroller">
+        <div class="scroller">
+            <img src="../Images2/download (1).jpg" alt="">
+            <img src="../Images2/download (2).jpg" alt="">
+            <img src="../Images2/download.jpg" alt="">
+            <img src="../Images2/maxresdefault.jpg" alt="">
+        </div>
+    </div>
+    <div class="scroll-btn-prev">
+        <button onclick="left_scroll()"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+          </svg></button>
+    </div>
+    <div class="scroll-btn-next">
+        <button onclick="right_scroll()"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+          </svg></button>
+    </div>
+    <section class="news">
+        <h2>News</h2>
+        <!-- <div class="news-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet exercitationem eaque ipsam incidunt culpa ab id libero illo animi?</p>
+        </div> -->
+        <div class="scroll-left">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+</svg>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sed molestias facilis aut nostrum quia corporis. Qui non pariatur sit! </p>
+        </div>
+        <div class="scroll-left">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+</svg>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facilis praesentium debitis non quis. Beatae aperiam enim itaque ipsa. Soluta nisi reprehenderit optio nihil consectetur dignissimos ad laborum obcaecati. Beatae quas ipsum nisi dolorem obcaecati consequuntur esse ad, ea rerum?</p>
+        </div>
+        <div class="scroll-left">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+</svg>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="scroll-left">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+</svg>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat illo suscipit voluptatem nihil non ducimus quidem pariatur ratione, ullam libero!</p>
+        </div>
+
+    </section>
+    <h1  id="achievement-heading">Our Achievements</h1>
+    <section class="achievements">
+        <div class="achivement-card">
+            <img src="https://unsplash.it/400/400" alt="">
+            <div class="achivement-text ">
+                <h1>Hello</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ut reiciendis, distinctio maxime officiis odit laudantium iste neque, fugit labore dolor blanditiis, voluptatum quod aliquid soluta. Vitae quia ab facere!</p>
+            </div>
+        </div>
+        <div class="achivement-card">
+            <img src="https://unsplash.it/400/400" class="left-img" alt="">
+            <div class="achivement-text left">
+                <h1>Hello</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ut reiciendis, distinctio maxime officiis odit laudantium iste neque, fugit labore dolor blanditiis, voluptatum quod aliquid soluta. Vitae quia ab facere!</p>
+            </div>
+        </div>
+        <div class="achivement-card">
+            <img src="https://unsplash.it/400/400" alt="">
+            <div class="achivement-text">
+                <h1>Hello</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ut reiciendis, distinctio maxime officiis odit laudantium iste neque, fugit labore dolor blanditiis, voluptatum quod aliquid soluta. Vitae quia ab facere!</p>
+            </div>
+        </div>
+        <div class="achivement-card">
+            <img src="https://unsplash.it/400/400" class="left-img" alt="">
+            <div class="achivement-text left">
+                <h1>Hello</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ut reiciendis, distinctio maxime officiis odit laudantium iste neque, fugit labore dolor blanditiis, voluptatum quod aliquid soluta. Vitae quia ab facere!</p>
+            </div>
+        </div>
+    </section>
+    <section class="navigation">
+        <div class="card">
+            <h2>Placements</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis amet recusandae placeat provident nemo rem vero! Deleniti, eos accusamus? Neque maiores, voluptatem quisquam provident cum et odio sapiente dolor at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, impedit?</p>
+            <button onclick="placement()">Learn More</button>
+        </div>
+        <div class="card">
+            <h2>Syllabus</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis amet recusandae placeat provident nemo rem vero! Deleniti, eos accusamus? Neque maiores, voluptatem quisquam provident cum et odio sapiente dolor at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, impedit?</p>
+            <button onclick="Syllabus()">Learn More</button>
+        </div>
+        <div class="card">
+            <h2>Academic Calender</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis amet recusandae placeat provident nemo rem vero! Deleniti, eos accusamus? Neque maiores, voluptatem quisquam provident cum et odio sapiente dolor at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, impedit?</p>
+            <button onclick="academic()">Learn More</button>
+        </div>
+        <div class="card">
+            <h2>Hostels And Facilites</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis amet recusandae placeat provident nemo rem vero! Deleniti, eos accusamus? Neque maiores, voluptatem quisquam provident cum et odio sapiente dolor at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, impedit?</p>
+            <button onclick="hostel()">Learn More</button>
+        </div>
+        <div class="card">
+            <h2>MIS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis amet recusandae placeat provident nemo rem vero! Deleniti, eos accusamus? Neque maiores, voluptatem quisquam provident cum et odio sapiente dolor at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, impedit?</p>
+            <button onclick="mis()">Learn More</button>
+        </div>
+        <div class="card">
+            <h2>Admission</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis amet recusandae placeat provident nemo rem vero! Deleniti, eos accusamus? Neque maiores, voluptatem quisquam provident cum et odio sapiente dolor at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, impedit?</p>
+            <button onclick="admission()">Learn More</button>
+        </div>
+    </section>
+    <footer>
+        <img src="../Images2/SVNIT-Surat.png" alt="">
+        <div class="footer-text">
+            <h2>Sardar Vallabhbhai National Institute of Technology, Surat</h2>
+            <p>The Sardar Vallabhbhai National Institute of Technology, Surat popularly known as National Institute of Technology, Surat, NIT Surat or SVNIT, is an engineering institute of higher education established by the Parliament of India in 1961.</p>
+        </div>
+    </footer>
+</body>
+<script src="../javascript/index.js"></script>
+</html>
